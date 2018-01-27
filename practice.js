@@ -19,7 +19,9 @@ var arr = [10,20,30];
 
 //Code Here
 
-
+function first(arr) {
+  return arr[0]
+};
 
 ////////// PROBLEM 2 //////////
 
@@ -34,7 +36,9 @@ var arr = [40,50,60];
 
 //Code Here
 
-
+function last(arr) {
+  return arr[2]
+};
 
 ////////// PROBLEM 3 //////////
 
@@ -49,7 +53,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 //Code Here
 
-
+function looper (family) {
+  for (i = 0; i <= family.length; i++) {
+    alert(family);
+  }
+};
 
 ////////// PROBLEM 4 //////////
 
@@ -247,7 +255,7 @@ var colt = {
 
 //Code Here
 
-
+devMountainEmployees.push(tyler, cahlan, ryan, colt);
 
 /*
   Now let's say Cahlan has a mental breakdown and has to take a leave of absence to 'find himself'.
@@ -256,7 +264,7 @@ var colt = {
 
 //Code Here
 
-
+devMountainEmployees.splice(1,1);
 
 ////////// PROBLEM 13 //////////
 
@@ -268,7 +276,7 @@ var colt = {
 
 //Code Here
 
-
+var users = []
 
 /*
   Now add three user objects to your users array. Each user object should contain the following properties. name, email, password, username.
